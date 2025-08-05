@@ -5,45 +5,17 @@ const ExperienceSection = () => {
   const experiences = [
     {
       type: "work",
-      title: "Software Engineering Intern",
-      company: "Tech Company",
-      location: "City, State",
-      period: "Summer 2024",
-      description: "Developed and maintained web applications using React and Node.js. Collaborated with cross-functional teams to deliver high-quality software solutions.",
+      title: "Web Developer Intern",
+      company: "Abhyaz",
+      location : "remote",
+      period: "Jun 2025-Present",
+      description: "Developed applications using Zoho sites. Collaborated with cross-functional teams to deliver high-quality solutions.",
       achievements: [
-        "Improved application performance by 30%",
-        "Implemented new features used by 10,000+ users",
-        "Collaborated with 5+ team members on agile projects"
+        "Build a website using zoho sites",
+        "Build figma designs for web pages with better user experience",
+        "Collaborated with the design team members"
       ],
-      technologies: ["React", "Node.js", "MongoDB", "JavaScript"]
-    },
-    {
-      type: "project",
-      title: "AI Research Assistant",
-      company: "University Research Lab",
-      location: "University Campus",
-      period: "Fall 2023 - Present",
-      description: "Conducting research on machine learning algorithms and their applications in computer vision. Assisting in developing novel approaches to image recognition.",
-      achievements: [
-        "Published research paper in conference proceedings",
-        "Developed ML models with 95% accuracy",
-        "Mentored 3 undergraduate students"
-      ],
-      technologies: ["Python", "TensorFlow", "PyTorch", "OpenCV"]
-    },
-    {
-      type: "certification",
-      title: "AWS Certified Cloud Practitioner",
-      company: "Amazon Web Services",
-      location: "Online",
-      period: "March 2024",
-      description: "Comprehensive certification covering cloud concepts, AWS services, security, architecture, pricing, and support.",
-      achievements: [
-        "Scored 890/1000 on certification exam",
-        "Gained expertise in cloud computing fundamentals",
-        "Learned AWS best practices and security"
-      ],
-      technologies: ["AWS", "Cloud Computing", "DevOps", "Security"]
+      technologies: ["Zoho Sites","Figma","Canva"]
     }
   ];
 
@@ -125,10 +97,10 @@ const ExperienceSection = () => {
                         </div>
                       </div>
                     </div>
-                    <Button variant="outline" size="sm" className="btn-ghost lg:ml-4">
+                   {/* <Button variant="outline" size="sm" className="btn-ghost lg:ml-4">
                       <ExternalLink className="h-4 w-4 mr-2" />
                       View Details
-                    </Button>
+                    </Button> */}
                   </div>
 
                   <p className="text-foreground-secondary mb-6 leading-relaxed">
@@ -182,9 +154,18 @@ const ExperienceSection = () => {
               I'm always looking for opportunities to apply my skills and learn from experienced professionals. 
               Let's discuss how I can contribute to your team.
             </p>
-            <Button className="btn-hero">
-              View Full Resume
+            <Button
+              className="btn-hero"
+              onClick={() => {
+                const contactSection = document.getElementById("contact");
+                if (contactSection) {
+                  contactSection.scrollIntoView({ behavior: "smooth" });
+                }
+              }}
+            >
+              Contact Me
             </Button>
+
           </div>
         </div>
       </div>

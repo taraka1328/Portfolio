@@ -4,9 +4,10 @@ import AboutSection from '@/components/AboutSection';
 import SkillsSection from '@/components/SkillsSection';
 import ExperienceSection from '@/components/ExperienceSection';
 import ProjectsSection from '@/components/ProjectsSection';
-import AchievementsSection from '@/components/AchievementsSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
+import CertificatesSection from '@/components/CertificationsSection';
+import ExtraCurricularSection from '@/components/ExtraCurricularSection';
 
 const Index = () => {
   return (
@@ -18,7 +19,8 @@ const Index = () => {
         <SkillsSection />
         <ExperienceSection />
         <ProjectsSection />
-        <AchievementsSection />
+        <CertificatesSection />
+        <ExtraCurricularSection/>
         <ContactSection />
       </main>
       <Footer />

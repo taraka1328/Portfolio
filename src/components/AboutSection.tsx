@@ -1,4 +1,5 @@
 import { GraduationCap, Target, Heart, Lightbulb } from 'lucide-react';
+import profilePhoto from '@/assets/profile.jpg';
 
 const AboutSection = () => {
   const highlights = [
@@ -32,8 +33,8 @@ const AboutSection = () => {
             About <span className="text-gradient">Me</span>
           </h2>
           <p className="text-xl text-foreground-secondary max-w-3xl mx-auto">
-            I'm a passionate developer with a deep interest in artificial intelligence 
-            and software engineering, always eager to learn and create innovative solutions.
+            I am a passionate Computer Science Student with a strong interest in Artificial Intelligence (AI),
+            Machine Learning, Web Development, and Mobile Applications. I'm driven by the desire to build innovative solutions that address real-world challenges.
           </p>
         </div>
 
@@ -42,7 +43,7 @@ const AboutSection = () => {
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-primary mb-4">My Journey</h3>
             <p className="text-foreground-secondary leading-relaxed">
-              As an aspiring AI and Software Engineer, I'm constantly exploring the intersection 
+              As an aspiring Full Stack Engineer, I'm constantly exploring the intersection 
               of technology and innovation. My journey began with a curiosity about how computers 
               work, which evolved into a passion for creating intelligent systems that can make 
               a meaningful impact.
@@ -60,21 +61,23 @@ const AboutSection = () => {
             </p>
           </div>
 
-          {/* Profile Image Placeholder */}
-          <div className="relative">
-            <div className="w-full max-w-md mx-auto">
-              <div className="aspect-square rounded-2xl bg-gradient-primary p-1">
-                <div className="w-full h-full rounded-xl bg-card flex items-center justify-center">
-                  <div className="text-center p-8">
-                    <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-primary flex items-center justify-center">
-                      <span className="text-2xl font-bold text-white">YN</span>
-                    </div>
-                    <p className="text-foreground-secondary">Profile Photo</p>
-                    <p className="text-sm text-foreground-muted mt-2">
-                      Add your professional headshot here
-                    </p>
-                  </div>
+          {/* Profile Image */}
+          <div className="max-w-md mx-auto">
+            <div className="aspect-square w-full rounded-2xl bg-gradient-to-r from-primary to-secondary p-1">
+              <div className="w-full h-full rounded-xl bg-card flex flex-col items-center justify-center p-6">
+                <div className="relative w-56 h-56 mb-4 rounded-full overflow-hidden bg-gray-100">
+                  <img
+                    src={profilePhoto}
+                    alt="Kakumanu Taraka Lakshmi Prasanna"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
+                <p className="text-foreground-secondary font-medium text-center">
+                  Kakumanu Taraka Lakshmi Prasanna
+                </p>
+                <p className="text-sm text-foreground-muted mt-2 text-center">
+                  Aspiring Full Stack Engineer
+                </p>
               </div>
             </div>
           </div>

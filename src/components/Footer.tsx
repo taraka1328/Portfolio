@@ -16,9 +16,9 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: <Github className="h-5 w-5" />, href: 'https://github.com/yourusername', label: 'GitHub' },
-    { icon: <Linkedin className="h-5 w-5" />, href: 'https://linkedin.com/in/yourprofile', label: 'LinkedIn' },
-    { icon: <Mail className="h-5 w-5" />, href: 'mailto:your.email@example.com', label: 'Email' }
+    { icon: <Github className="h-5 w-5" />, href: 'https://github.com/taraka1328', label: 'GitHub' },
+    { icon: <Linkedin className="h-5 w-5" />, href: 'https://linkedin.com/in/prasanna286', label: 'LinkedIn' },
+    { icon: <Mail className="h-5 w-5" />, href: 'mailto:tarakalakshmiprasanna286@gmail.com', label: 'Email' }
   ];
 
   return (
@@ -34,7 +34,7 @@ const Footer = () => {
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-gradient">Your Portfolio</h3>
               <p className="text-foreground-secondary leading-relaxed">
-                Aspiring AI & Software Engineer passionate about creating innovative 
+                Aspiring Full Stack Engineer passionate about creating innovative 
                 solutions and building the future through technology.
               </p>
               <div className="flex space-x-4">
@@ -77,10 +77,10 @@ const Footer = () => {
                   Ready to collaborate on your next project?
                 </p>
                 <a
-                  href="mailto:your.email@example.com"
+                  href="mailto:tarakalakshmiprasanna286@gmail.com"
                   className="block text-primary hover:text-primary-light transition-colors duration-300 font-medium"
                 >
-                  your.email@example.com
+                  tarakalakshmiprasanna286@gmail.com
                 </a>
                 <p className="text-foreground-secondary text-sm">
                   Available for internships and entry-level positions
@@ -101,9 +101,9 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             {/* Copyright */}
             <div className="flex items-center space-x-2 text-foreground-secondary text-sm">
-              <span>© {currentYear} Your Name. Built with</span>
-              <Heart className="h-4 w-4 text-red-500 animate-pulse" />
-              <span>and cutting-edge tech.</span>
+              <span>© {currentYear} Taraka Lakshmi Prasanna.</span>
+              
+              
             </div>
 
             {/* Back to top */}

@@ -5,7 +5,7 @@ const SkillsSection = () => {
     { category: "Programming Languages", icon: <Code className="h-6 w-6" />, skills: ["Python", "Java", "C", "Dart", "JavaScript", "HTML", "CSS"] },
     { category: "Databases", icon: <Database className="h-6 w-6" />, skills: ["MySQL", "MongoDB", "Firebase"] },
     { category: "Frameworks & Tools", icon: <Globe className="h-6 w-6" />, skills: ["Flutter", ".NET", "React", "Node.js"] },
-    { category: "AI & Machine Learning", icon: <Brain className="h-6 w-6" />, skills: ["TensorFlow", "PyTorch", "Scikit-learn", "OpenCV"] }
+    { category: "AI & Machine Learning", icon: <Brain className="h-6 w-6" />, skills: ["TensorFlow", "PyTorch", "Scikit-learn","KNN Model","SVM"] }
   ];
 
   const softSkills = [
