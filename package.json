@@ -24,7 +24,6 @@
     "eslint-plugin-react-refresh": "^0.4.9",
     "gh-pages": "^6.3.0",
     "globals": "^15.9.0",
-    "lovable-tagger": "^1.1.7",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.11",
     "ts-node": "^10.9.2",
@@ -92,14 +91,14 @@
     "vaul": "^0.9.3",
     "zod": "^3.23.8"
   },
-  "description": "**URL**: https://lovable.dev/projects/14ccb111-14da-4254-9ea9-0df24ddc5be1",
+  "description": "",
   "main": "eslint.config.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/taraka1328/Portfolio.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Taraka Lakshmi Prasanna Kakumanu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/taraka1328/Portfolio/issues"
