@@ -3,18 +3,11 @@ import react from '@vitejs/plugin-react';
 import { resolve } from 'path';
 
 export default defineConfig({
-  
+  base: '/', // ✅ Important: Set to '/' for Vercel or just remove it
   resolve: {
     alias: {
-      '@': resolve(__dirname, 'src'), // 👈 This lets @ point to /src
-    }
+      '@': resolve(__dirname, 'src'),
+    },
   },
   plugins: [react()],
-  build: {
-    rollupOptions: {
-      input: {
-        main: resolve(__dirname, 'index.html')
-      }
-    }
-  }
 });
